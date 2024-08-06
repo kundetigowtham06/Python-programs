@@ -32,4 +32,15 @@ l[0]=l[m]
 l[m]=t
 print(l)
 #method 2
+l=[]
+n=int(input("No.of elements="))
+for i in range(n):
+	e=int(input("Enter numbers="))
+	l.append(e)
+ind1=int(input("enter index 1="))
+ind2=int(input("enter index 2="))
+t=l[ind1]
+l[ind1]=l[ind2]
+l[ind2]=t
+print(l)
 
