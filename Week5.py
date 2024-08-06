@@ -87,5 +87,13 @@ for i in range(n):
 	l.append(e)
 print("pos of max=",l.index(max(l)))
 print("pos of min=",l.index(min(l)))
-
+#concatenation
+l1=["M","na","i","Abhi"]
+l2=["y","me","s","ram"]
+m=len(l1)
+l=[]
+for i in range(m):
+	l.append(l1[i]+l2[i])
+print(l)
+	
 
