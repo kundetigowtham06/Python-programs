@@ -43,4 +43,26 @@ t=l[ind1]
 l[ind1]=l[ind2]
 l[ind2]=t
 print(l)
+#remove
+l=[]
+n=int(input("No.of elements="))
+for i in range(n):
+	e=int(input("Enter numbers="))
+	l.append(e)
+for i in range(n):
+	for j in range(i+1,n):
+		if(l[i]==l[j]):
+			remove(l[i])
+print(l)
+#correct
+l=[]
+n=int(input("No.of elements="))
+for i in range(n):
+	e=int(input("Enter numbers="))
+	l.append(e)
+print("Enter element to remove")
+m=int(input())
+l.remove(m)
+print(l)
+
 
