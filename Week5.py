@@ -64,5 +64,20 @@ print("Enter element to remove")
 m=int(input())
 l.remove(m)
 print(l)
+# even or odd
+l=[]
+n=int(input("No.of elements="))
+for i in range(n):
+	e=int(input("Enter numbers="))
+	l.append(e)
+even=[]
+odd=[]
+for i in range(n):
+	if(l[i]%2==0):
+		even.append(l[i])
+	else:
+		odd.append(l[i])
+print(even)
+print(odd)
 
 
