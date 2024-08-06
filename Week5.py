@@ -79,5 +79,13 @@ for i in range(n):
 		odd.append(l[i])
 print(even)
 print(odd)
+#max and min pos
+l=[]
+n=int(input("No.of elements="))
+for i in range(n):
+	e=int(input("Enter numbers="))
+	l.append(e)
+print("pos of max=",l.index(max(l)))
+print("pos of min=",l.index(min(l)))
 
 
