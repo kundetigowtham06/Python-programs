@@ -23,3 +23,4 @@ def M_return(a):
 		return "Odd"
 n=int(input("Enter number="))
 print(M_return(n))
+
