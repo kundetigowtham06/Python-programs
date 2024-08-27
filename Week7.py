@@ -23,4 +23,10 @@ def M_return(a):
 		return "Odd"
 n=int(input("Enter number="))
 print(M_return(n))
-
+#GCD
+def gcd(a,b):
+	if b==0:
+		return a
+	else:
+		return gcd(a,a%b)
+print(gcd(2,4))
