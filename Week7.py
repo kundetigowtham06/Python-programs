@@ -37,3 +37,11 @@ def s(my_list):
 	return max(my_list)
 l=[1,2,3,4]
 print(s(l))
+#faltten
+def flatten(m):
+	flat_list=[]
+	for i in m:
+		flat_list+=i
+	return flat_list
+m=[[1,2,3],[4,5,6],[7,8,9]]
+print(flatten(m))
