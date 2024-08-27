@@ -16,3 +16,10 @@ def div(a,b):
 	return a/b
 print("Divison is",int(div(b=2,a=6)))
 #program 2
+def M_return(a):
+	if a%2==0:
+		return "even"
+	else:
+		return "Odd"
+n=int(input("Enter number="))
+print(M_return(n))
