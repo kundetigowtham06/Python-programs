@@ -75,4 +75,14 @@ if m!=0:
 else:
 	print("Doesn't Exists")
 #Program-5
-
+#program-6
+d={1:2,
+2:3,
+3:4,
+4:5
+}
+sum=0
+for x in d:
+	sum=sum+d[x]
+print("Sum of all items",sum)
+	
