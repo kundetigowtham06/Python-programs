@@ -75,6 +75,14 @@ if m!=0:
 else:
 	print("Doesn't Exists")
 #Program-5
+d={1:2,
+2:3,
+3:4,
+4:5
+}
+d[5]=6
+print("After adding new key-value pair")
+print(d)
 #program-6
 d={1:2,
 2:3,
