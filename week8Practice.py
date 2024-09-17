@@ -50,3 +50,11 @@ print(square(n))
 l=[1,2,3,4]
 square=list(map(lambda x: x*x,l))
 print(square)
+#program-7
+check=lambda x:x%2
+n=int(input("Enter number="))
+if check(n)==0:
+	print("Even")
+else:
+	print("Odd")
+
