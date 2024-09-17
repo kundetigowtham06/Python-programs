@@ -57,4 +57,22 @@ if check(n)==0:
 	print("Even")
 else:
 	print("Odd")
+#Program-4
+d={1:22,
+2:33,
+3:44,
+4:55
+}
+key=int(input("Enter a key to find="))
+m=0
+for x in d:
+	if key==d[x]:
+		m=m+1
+		break
+	
+if m!=0:
+	print("Exists")
+else:
+	print("Doesn't Exists")
+#Program-5
 
