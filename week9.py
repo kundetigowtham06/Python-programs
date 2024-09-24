@@ -7,3 +7,8 @@ print(f.read())
 f.close()
 f1=open("example.txt",'r')
 print(f1.tell()) 
+#Binary
+f2=open("gotam.bin",'wb')
+f2.write(b'\x00\x01')
+f2=open("gotam.bin",'rb')
+print(f2.read())
