@@ -170,7 +170,5 @@ with open('king.csv','r') as f:
 	for i in read:
 		print(i)
 
-                                                          SET 10
- 1. Write a Python program to interchange first and last elements in a list.
 
                                            
