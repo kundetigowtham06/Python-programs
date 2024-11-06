@@ -157,7 +157,7 @@ print(x>>y)
 print(x<<y) 
 
  3. Write a program to create and read a CSV file.
-
+import csv
 d=[['s.no','name','roll'],
 [1,'gotam',7],
 [2,'hello',9]
