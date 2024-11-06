@@ -38,7 +38,7 @@ l=[]
 n=int(input("Enter the number of elements: "))
 print("Enter elements=")
 for i in range(n):
-    e=input()
+    e=int(input())
     l.append(e)
 print("maximum position",l.index(max(l)))
 print("minimum position",l.index(min(l)))
